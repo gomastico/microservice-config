@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: db-api
+  datasource:
+    driver-class-name-on: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/dbTest?useSSL=false
+    username: tori
+    password: test
+
+server:
+  port: 8081
+
+build:
+  version: @project.version@
+  timestamp: @project.build.timestamp@
